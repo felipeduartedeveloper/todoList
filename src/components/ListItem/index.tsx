@@ -4,6 +4,7 @@ import { Item } from '../../types/Item'
 
 type Props = {
   item: Item
+  onChange: (id: number, done: boolean) => void
 }
 
 
